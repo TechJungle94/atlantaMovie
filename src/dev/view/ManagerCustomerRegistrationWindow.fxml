@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="623.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="125.0" layoutY="22.0" text="Manager-Customer Registration">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="94.0" text="First Name" />
+      <Label layoutX="295.0" layoutY="94.0" text="Last Name" />
+      <Label layoutX="45.0" layoutY="156.0" text="Username" />
+      <Label layoutX="46.0" layoutY="222.0" text="Password" />
+      <Label layoutX="295.0" layoutY="222.0" text="Confirm Password" />
+      <TextField layoutX="123.0" layoutY="90.0" />
+      <TextField layoutX="411.0" layoutY="90.0" />
+      <TextField layoutX="122.0" layoutY="151.0" prefHeight="26.0" prefWidth="149.0" />
+      <TextField layoutX="122.0" layoutY="218.0" />
+      <TextField layoutX="411.0" layoutY="218.0" />
+      <Button layoutX="185.0" layoutY="550.0" mnemonicParsing="false" text="Back" />
+      <Button layoutX="324.0" layoutY="550.0" mnemonicParsing="false" text="Register" />
+      <Label layoutX="295.0" layoutY="156.0" text="Company" />
+      <ChoiceBox layoutX="410.0" layoutY="151.0" prefWidth="150.0" />
+      <Label layoutX="46.0" layoutY="277.0" text="Street Address" />
+      <TextField layoutX="185.0" layoutY="272.0" prefHeight="26.0" prefWidth="374.0" />
+      <TextField layoutX="122.0" layoutY="321.0" prefHeight="26.0" prefWidth="78.0" />
+      <TextField layoutX="447.0" layoutY="321.0" prefHeight="26.0" prefWidth="111.0" />
+      <Label layoutX="46.0" layoutY="326.0" text="City" />
+      <Label layoutX="235.0" layoutY="326.0" text="State" />
+      <ChoiceBox layoutX="276.0" layoutY="322.0" prefHeight="26.0" prefWidth="78.0" />
+      <Label layoutX="387.0" layoutY="327.0" text="Zipcode" />
+      <Label layoutX="48.0" layoutY="380.0" prefHeight="18.0" prefWidth="96.0" text="Credit Card #" />
+      <TextField layoutX="174.0" layoutY="500.0" prefHeight="26.0" prefWidth="211.0" />
+   </children>
+</AnchorPane>
